@@ -18,9 +18,8 @@ namespace ariel
     {
         std::string str = std::to_string(number);
         string all = "0";
-        if (number > minn && number < maxx)
+        if (number >= minn && number<= maxx)
         {
-
             string check = " H";
             string check2 = " H";
             string check3 = "X(LNR)Y";

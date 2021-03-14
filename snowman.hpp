@@ -4,8 +4,8 @@
 namespace ariel
 {
     std::string snowman(int);
-#define minn 00000000
-#define maxx 55555555
+#define minn 11111111
+#define maxx 44444444
 // HNLRXYTB
 #define H 0
 #define N 1

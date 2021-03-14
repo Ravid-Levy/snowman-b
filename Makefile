@@ -13,10 +13,11 @@ main: mainn
 	./$^
 
 mainn: main.o $(OBJECTS)
-	$(CXX) $(CXXFLAGS) $^ -o mainn
+	$(CXX) $(CXXFLAGS) $^ -o main
 
 main.o: main.cpp $(SOURCES)
 	$(CXX) $(CXXFLAGS) --compile $< -o $@
+
 test: TestRunner.o StudentTest1.o StudentTest2.o StudentTest3.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o test
 

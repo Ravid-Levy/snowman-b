@@ -1,9 +1,4 @@
-/**
- * Demo program for snowman exercise.
- * 
- * Author: Erel Segal-Halevi
- * Since : 2021-02
- */
+
 
 #include "snowman.hpp"
 
@@ -45,9 +40,8 @@ Should print:
         cout << "   caught exception: " << ex.what() << endl; // should print "Invalid code '5'"
     }
 
-    cout << ariel::snowman(33232124) << endl;
 
-    cout << ariel::snowman(33232124) << endl;
+    cout << ariel::snowman(1) << endl;
 
     try
     {
